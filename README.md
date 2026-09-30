@@ -8,6 +8,8 @@ Built from the Claude Design handoff (`DSD Workflow.dc.html`).
 
 ## Run it
 
+Requires Node.js 20.19+ or 22.12+ (get the LTS from https://nodejs.org).
+
 ```bash
 npm install
 npm run dev       # http://localhost:5173
