@@ -1,0 +1,32 @@
+.toast-anchor {
+  position: fixed;
+  bottom: 26px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+}
+.toast {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  background: #1f3c42;
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 13px 20px;
+  box-shadow: 0 12px 30px rgba(31, 60, 66, 0.25);
+  animation: contToast 3.4s ease both;
+}
+.toast-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #4f8a6b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.toast-text {
+  font-size: 13.5px;
+  font-weight: 500;
+}

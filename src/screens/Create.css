@@ -1,0 +1,141 @@
+.create {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 26px 36px 60px;
+}
+
+.create-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.create-head h2 {
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #1d2b30;
+  margin: 0;
+}
+.create-count {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12.5px;
+  color: #52646a;
+}
+.create-hint {
+  font-size: 13px;
+  color: #52646a;
+  margin: 12px 2px 18px;
+  max-width: 74ch;
+}
+
+.opp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.opp-card {
+  background: #ffffff;
+  border: 1px solid #e6eded;
+  border-radius: 15px;
+  padding: 18px 22px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+}
+.opp-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(31, 60, 66, 0.08);
+  border-color: #d5e0e0;
+}
+
+.score-ring {
+  position: relative;
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+}
+.score-ring-value {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 700;
+  color: #2f4045;
+}
+
+.opp-main {
+  flex: 1;
+  min-width: 0;
+}
+.opp-title {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #1d2b30;
+}
+.opp-why {
+  font-size: 12px;
+  color: #5f7177;
+  line-height: 1.5;
+  margin-top: 5px;
+  max-width: 60ch;
+}
+.opp-meta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 11px;
+  font-size: 12px;
+  color: #52646a;
+}
+.opp-meta b {
+  color: #46585d;
+  font-weight: 600;
+}
+
+.opp-signals {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 214px;
+  padding-left: 22px;
+  border-left: 1px solid #eef2f2;
+}
+.signal-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.signal-label {
+  font-size: 10.5px;
+  color: #52646a;
+  width: 84px;
+  text-align: right;
+  white-space: nowrap;
+}
+.signal-track {
+  flex: 1;
+  height: 5px;
+  background: #eef2f2;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.signal-fill {
+  height: 100%;
+  border-radius: 4px;
+}
+.signal-val {
+  font-size: 10px;
+  font-weight: 700;
+  width: 18px;
+  text-align: right;
+}

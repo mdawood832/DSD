@@ -1,0 +1,221 @@
+.settings {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 36px 90px;
+}
+
+.settings-intro {
+  margin-bottom: 22px;
+}
+.settings-intro h2 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: #1d2b30;
+  margin: 0;
+}
+.settings-intro p {
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: #5f7177;
+  margin: 7px 0 0;
+  max-width: 62ch;
+}
+.settings-group-label {
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #7f9094;
+  margin: 2px 2px 9px;
+}
+
+.instr-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.instr-list.system {
+  margin-bottom: 26px;
+}
+.instr-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #ffffff;
+  border: 1px solid #e6eded;
+  border-radius: 14px;
+  padding: 16px 18px;
+  cursor: pointer;
+}
+.instr-row:hover {
+  border-color: #c6dcdc;
+}
+.instr-icon {
+  flex-shrink: 0;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.instr-icon.system {
+  background: #eef5f6;
+  color: #2f7e87;
+}
+.instr-icon.format {
+  background: #f4f0f7;
+  color: #7a5ca0;
+}
+.instr-text {
+  flex: 1;
+  min-width: 0;
+}
+.instr-title {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: #1d2b30;
+}
+.instr-preview {
+  font-size: 12.5px;
+  color: #8a9a9e;
+  line-height: 1.45;
+  margin-top: 3px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.instr-add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  margin-top: 12px;
+  background: transparent;
+  color: #2f7e87;
+  border: 1.5px dashed #bcd3d5;
+  border-radius: 14px;
+  padding: 15px;
+  font-family: inherit;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.instr-add:hover {
+  background: #f2f8f8;
+  border-color: #2f7e87;
+}
+
+/* ---------- Detail ---------- */
+
+.instr-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #7f9094;
+  padding: 0;
+  margin-bottom: 16px;
+}
+.instr-back:hover {
+  color: #2f4045;
+}
+.instr-editor {
+  background: #ffffff;
+  border: 1px solid #e6eded;
+  border-radius: 16px;
+  padding: 22px 24px 24px;
+}
+.instr-editor-title {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: #1d2b30;
+  margin: 0 0 4px;
+}
+.instr-editor-sub {
+  font-size: 12.5px;
+  color: #8a9a9e;
+  margin-bottom: 18px;
+}
+.instr-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #7f9094;
+  margin-bottom: 7px;
+}
+.instr-input,
+.instr-textarea {
+  width: 100%;
+  border: 1.5px solid #dbe4e4;
+  font-size: 14px;
+  color: #2f4045;
+  outline: none;
+}
+.instr-input:focus,
+.instr-textarea:focus {
+  border-color: #2f7e87;
+}
+.instr-input {
+  border-radius: 10px;
+  padding: 11px 14px;
+  font-weight: 600;
+  color: #1d2b30;
+  margin-bottom: 18px;
+}
+.instr-textarea {
+  min-height: 300px;
+  border-radius: 11px;
+  padding: 14px 16px;
+  line-height: 1.65;
+  resize: vertical;
+}
+.instr-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+.instr-actions-right {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.instr-delete {
+  background: transparent;
+  color: #b0656b;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 12.5px;
+  font-weight: 600;
+  padding: 0;
+}
+.instr-delete:hover {
+  color: #8f4a50;
+}
+.instr-btn {
+  border-radius: 10px;
+  padding: 10px 18px;
+  font-size: 13px;
+}
+.instr-btn.btn-secondary {
+  color: #4f6065;
+}
+.instr-btn.btn-primary {
+  padding: 10px 20px;
+}
